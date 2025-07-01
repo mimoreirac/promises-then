@@ -1,0 +1,24 @@
+{
+  "name": "promises-then",
+  "version": "1.0.0",
+  "description": "Repositorio para la exposicion de Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimoreirac/promises-then.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimoreirac/promises-then/issues"
+  },
+  "homepage": "https://github.com/mimoreirac/promises-then#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "vitest": "^3.2.4"
+  }
+}
