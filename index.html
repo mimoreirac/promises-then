@@ -142,14 +142,14 @@ Para comprender este concepto más fácilmente, podemos utilizar una analogía d
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 3. **Nuestra orden es preparada:** La promesa se encuentra en su estado `pending` o pendiente.
-4. **El número de nuestra orden es llamado, y recibimos nuestra comida:** La promesa ahora se encuentra completada o `fulfilled` y redibimos el valor de nuestro objeto (nuestra hamburguesa).
+4. **El número de nuestra orden es llamado, y recibimos nuestra comida:** La promesa ahora se encuentra completada o `fulfilled` y recibimos el valor de nuestro objeto (nuestra hamburguesa).
 5. **El cajero anuncia que se agotó el sabor de nuestra bebida:** Nuestra promesa es rechazada `rejected`, y recibimos una razón (un valor de error).
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ## El método `.then()`
 
-El método `.then()` nos permite especificar que tarea realizar cuando la promesa es cumplida. Puede tomar funciones como argumento.
+El método `.then()` nos permite especificar qué tarea realizar cuando la promesa es cumplida. Puede tomar funciones como argumento.
 
 ```javascript
 funcionPromesa()
