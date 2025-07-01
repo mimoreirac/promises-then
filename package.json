@@ -4,7 +4,8 @@
   "description": "Repositorio para la exposicion de Desarrollo Web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
   },
   "homepage": "https://github.com/mimoreirac/promises-then#readme",
   "dependencies": {
-    "express": "^5.1.0",
     "vitest": "^3.2.4"
   }
 }
