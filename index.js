@@ -1,6 +1,9 @@
-
 const itemHelados = [
-  { id: 1, nombre: "Helado chocolate", precio: 20.0 },
+  {
+    id: 1,
+    nombre: "Helado chocolate",
+    precio: 20.0,
+  },
   {
     id: 2,
     nombre: "Helado vainilla",
