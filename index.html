@@ -162,9 +162,7 @@ funcionPromesa()
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Encadenamiento
-
-Una de las cosas más importantes de el método `.then()` es que devuelve una nueva promesa, lo que nos permite encadenar varias operaciones en una sola secuencia.
+El método `.then()` devuelve una nueva promesa, lo que nos permite encadenar varias operaciones en una sola secuencia.
 
 ```javascript
 obtenerDatos()
@@ -174,7 +172,7 @@ obtenerDatos()
 	.catch(err => console.error(err));
 ```
 
-Cada paso de nuestro procedimiento es más claro y secuencial. Y con la ayuda de `,catch()` podemos manejar los errores de cualquiera de los pasos en la secuencia.
+Cada paso del procedimiento es más claro y secuencial. Y con la ayuda de `.catch()` podemos manejar los errores de cualquiera de los pasos en la secuencia.
 </div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
