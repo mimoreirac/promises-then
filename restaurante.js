@@ -64,9 +64,11 @@ function procesarPedido(pedidoCliente) {
   // Verifica tu solución ejecutando npm run test
 
   return tomarPedido(pedidoCliente)
+  //... Continúa aquí...
 
 }
 
+//========================================================================================
 // NO TOQUES ESTE CÓDIGO
 export { tomarPedido, revisarIngredientes, prepararComida, procesarPedido };
 //=========================================================================
