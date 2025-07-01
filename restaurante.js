@@ -46,6 +46,10 @@ function perpararComida(pedido) {
   });
 }
 
+//================================
+// EJERCICIO: COMPLETA LA FUNCIÓN
+//================================
+
 function procesarPedido(pedidoCliente) {
   console.log(`Preparando pedido para ${pedidoCliente.nombreCliente}...`);
 
