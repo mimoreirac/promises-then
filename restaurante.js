@@ -1,3 +1,4 @@
+// NO TOQUES ESTE CÓDIGO
 function tomarPedido(pedidoCliente) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -45,6 +46,7 @@ function prepararComida(pedido) {
     }, 5000);
   });
 }
+//=============================================================================================
 
 //================================
 // EJERCICIO: COMPLETA LA FUNCIÓN
@@ -65,4 +67,6 @@ function procesarPedido(pedidoCliente) {
 
 }
 
+// NO TOQUES ESTE CÓDIGO
 export { tomarPedido, revisarIngredientes, prepararComida, procesarPedido };
+//=========================================================================

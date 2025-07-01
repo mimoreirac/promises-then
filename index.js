@@ -31,17 +31,17 @@ function obtenerValorItem(itemId) {
   });
 }
 
-// const promesasCombo = [
-//     obtenerValorItem(1),
-//     obtenerValorItem(4)
-// ]
+const promesasCombo = [
+    obtenerValorItem(1),
+    obtenerValorItem(4)
+]
 
-// Promise.all(promesasCombo)
-// .then((precios) => {
-//     console.log("El precio de los helados es", precios)
-//     const precioTotal = precios.reduce((suma, precio) => suma + precio, 0)
-//     console.log(`El precio total es: ${precioTotal}`)
-// })
-// .catch((error)=>{
-//     console.error("No se pudo crear el combo,", error)
-// })
+Promise.all(promesasCombo)
+.then((precios) => {
+    console.log("El precio de los helados es", precios)
+    const precioTotal = precios.reduce((suma, precio) => suma + precio, 0)
+    console.log(`El precio total es: ${precioTotal}`)
+})
+.catch((error)=>{
+    console.error("No se pudo crear el combo,", error)
+})
