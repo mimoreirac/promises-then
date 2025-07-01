@@ -29,7 +29,7 @@ function revisarIngredientes(pedido) {
   });
 }
 
-function perpararComida(pedido) {
+function prepararComida(pedido) {
   return new Promise((resolve) => {
     setTimeout(() => {
       const pedidoPreparado = {
@@ -55,7 +55,7 @@ function procesarPedido(pedidoCliente) {
 
   return tomarPedido(pedidoCliente)
     .then((pedido) => revisarIngredientes(pedido))
-    .then((pedido) => perpararComida(pedido))
+    .then((pedido) => prepararComida(pedido))
     .then((pedidoFinal) => {
       console.log(
         `Orden completa! ${pedidoFinal.nombreCliente}, su ${pedidoFinal.item} se encuentra listo!`,
@@ -68,4 +68,4 @@ function procesarPedido(pedidoCliente) {
     });
 }
 
-export { tomarPedido, revisarIngredientes, perpararComida, procesarPedido };
+export { tomarPedido, revisarIngredientes, prepararComida, procesarPedido };
